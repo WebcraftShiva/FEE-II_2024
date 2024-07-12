@@ -1,0 +1,23 @@
+/* 1. decendent css: */
+ul li a{
+    color: red;
+    font-size: 20px;
+}
+
+
+/* child combinators: */
+
+section > h3{
+    border-top: 2px solid green;
+}
+
+/* Adjacent combinators: */
+h3+p{
+    background-color: yellow;
+}
+
+/* Sibling combinator: */
+
+ul~li{
+    color: blue;
+}

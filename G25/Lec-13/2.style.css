@@ -1,0 +1,39 @@
+/* text-align: */
+
+
+.a1{
+    text-align: center;
+}
+
+p{
+    text-align: inherit;
+    font-family: 'Times New Roman', Times, serif;
+    /* text-align: justify; */
+ /* text-align: start; */
+ /* text-align: end; */
+ /* text-align: left; */
+ /* text-align: right; */
+ /* text-align: center; */
+}
+
+/* text-decoration: */
+a{
+    font-size: 30px;
+    text-decoration:line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+
+h3{
+    word-spacing: 5px;
+    /* letter-spacing: 10px; */
+    text-indent: 20px;
+    text-transform: lowercase;
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+}
+
+h4{
+    text-shadow: 10px 8px 5px red ;
+    color: transparent;
+}

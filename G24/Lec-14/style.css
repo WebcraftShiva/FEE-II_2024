@@ -1,0 +1,33 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: darkslategrey
+}
+
+#container{
+
+    background-color: lightskyblue;
+    height: 400px;
+    width: 500px;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap-reverse; */
+    gap: 20px;
+    /* justify-content: flex-end; */
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+}
+
+.items{
+    border: 2px solid black;
+    height: 120px;
+    width: 120px;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}

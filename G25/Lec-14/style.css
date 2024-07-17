@@ -1,0 +1,38 @@
+body{
+    background-color: goldenrod;
+    display: flex;
+justify-content: center;
+align-items: center;
+}
+
+#container{
+    background-color: lightblue;
+
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center ;
+    align-items: center;
+    /* flex-direction: column-reverse; */
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+}
+
+.items{
+    border: 2px solid brown;
+    height: 120px;
+    width: 120px;
+}
+
+h1{
+    font-size: 40px;
+    color: aliceblue;
+    text-align: center;
+    background-color: black;
+    margin-right: 30px;
+    padding: 5px;
+}

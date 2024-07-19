@@ -1,0 +1,38 @@
+section{
+    border: 5px solid #ccc;
+    margin: 20px 10px;
+    padding: 1.6rem;
+}
+
+section h1{
+    font-size: 3rem;
+    text-align: center;
+}
+
+@media(max-width: 520px){
+
+    section{
+        background-color: lightskyblue;
+    }
+
+    h1{
+        color: white;
+    }
+
+    p{
+        color: orange;
+        font-weight: 800;     
+    }
+}
+
+@media(orientation: landscape){
+    section{
+        background-color: green;
+    }
+}
+
+@media(orientation: portrait){
+    section{
+        background-color: yellow;
+    }
+}

@@ -1,0 +1,49 @@
+section{
+    border: 2px solid #ccc;
+    padding: 1rem;
+    margin: 10px auto;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+}
+
+/* Media Queries: */
+@media screen and (max-width: 520px){
+
+    section{
+        background-color: orange;
+        text-transform: uppercase;
+    }
+
+    h1{
+        color: brown;
+        text-transform: capitalize;
+    }
+    p{
+        font-size: 1rem;
+        color: green;
+    }
+
+}
+
+/* landscape mode */
+@media(orientation: landscape){
+    section{
+        background-color: aqua;
+    }
+    section p{
+        text-transform: uppercase;
+    }
+}
+
+/* Portrait mode */
+@media(orientation: portrait){
+    section{
+        background-color: green;
+    }
+    section p{
+        text-transform: uppercase;
+    }
+}

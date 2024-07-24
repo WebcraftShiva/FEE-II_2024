@@ -1,0 +1,29 @@
+section{
+    width: 80vw;
+    margin: 20px auto;
+    display: grid;
+
+    /* 1. defining col and rows */
+
+    /* grid-template-columns: 250px 250px 250px; */
+    /* grid-template-rows: 250px 250px 250px 250px; */
+    /* grid-auto-columns: repeat(5,250px); */
+
+    /* 2. To devide grid in fraction */
+    /* grid-template-columns: repeat(1fr,1fr,1fr);
+    grid-template-columns: repeat(5,1fr); */
+    
+     /* 3. to create gap betweeen rows and columns we use gap */
+    /* /* row-gap: 20px; */
+    column-gap: 20px; 
+    /* gap: 20px 10px;
+    grid-gap: 10x 20px; */
+
+    /* 4. responsive grid*/
+    grid-template-columns: repeat(auto-fill,minmax(250px,3fr));
+
+}
+
+/* div{
+    height: 50px;
+} */

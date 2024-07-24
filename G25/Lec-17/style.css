@@ -1,0 +1,51 @@
+section{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
+    border: 3px solid black;
+    /* transition: 1s; */
+    transition-duration:5s;
+    transition-property: background-color;
+    transition-delay: 2s;
+}
+
+section:hover{
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+article{
+    margin: 20px;
+    border: 2px solid black;
+}
+
+article div{
+    height: 50px;
+    width: 50px;
+    background-color: lightgreen;
+    border: 2px solid black;
+    margin: 10px;
+    transition: 2s;
+}
+
+article:hover div{
+    margin-left: 900px;
+}
+
+div:nth-of-type(1){
+    transition-timing-function: ease;
+}
+
+div:nth-of-type(2){
+    transition-timing-function: ease-in-out;
+}
+
+div:nth-of-type(3){
+    transition-timing-function: linear;
+}
+div:nth-of-type(4){
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+div:nth-of-type(5){
+    transition-timing-function: ease;
+}

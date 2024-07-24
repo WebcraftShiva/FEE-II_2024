@@ -1,0 +1,25 @@
+section{
+    background-color: pink;
+    border: 2px solid black;
+    height:200px ;
+    width:200px ;
+    transition: 1s;
+    transition-duration: 2s;
+    transition-delay: 1s;
+}
+
+section:hover{
+    background-color: aqua;
+    height: 500px;
+    width: 500px;
+    border-radius: 50%;
+}
+
+article{
+    background-color: grey;
+    margin: 2px 2px;
+    padding: 2px auto;
+}
+div{
+    background-color: green;
+}

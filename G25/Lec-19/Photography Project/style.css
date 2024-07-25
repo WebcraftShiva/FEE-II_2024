@@ -17,7 +17,6 @@ div{
     position: relative;
 }
 
-/* Parent k jo hoga woh hi image ka de dege height and width */
 div img{
     width: 100%;
     height: 100%;
@@ -87,5 +86,5 @@ div:hover i{
 }
 
 #heading h1{
-    color: rgb(22,22,141);
+    color: rgb(22,22,141)
 }

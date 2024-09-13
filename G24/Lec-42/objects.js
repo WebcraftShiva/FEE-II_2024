@@ -57,24 +57,3 @@ const user4 = {...user1,...user2}
 console.log(user1)
 console.log(user4)
 
-
-
-[
-    {
-        {
-            name: 'Yash',
-            age: 25,
-            class: 'FEE'
-        },
-        {
-            name: 'Devdutt',
-            age: 26,
-            class: 'FEE'
-        },
-        {
-            name: 'Kanav',
-            age: 28,
-            class: 'FEE'
-        }
-    }
-]

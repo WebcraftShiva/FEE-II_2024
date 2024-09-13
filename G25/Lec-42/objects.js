@@ -45,20 +45,6 @@ console.log(obj4)
 
 
 
-
-
-
-
-// const users = {
-//     name: "Kanav",
-//     'full name' : 'Kanav Aggarwal',
-//     age: 25,
-//     Subject: 'FEE',
-//     CGPA: 8.6
-// }
-
-
-
 // 3. Object inside a object:
 // const users = {
 //     user1:{
@@ -77,6 +63,15 @@ console.log(obj4)
 //     }
 // }
 // console.log(users.user3.name.name)
+
+
+// const users = {
+//     name: "Kanav",
+//     'full name' : 'Kanav Aggarwal',
+//     age: 25,
+//     Subject: 'FEE',
+//     CGPA: 8.6
+// }
 
 
 // 2. changing/updating Object value

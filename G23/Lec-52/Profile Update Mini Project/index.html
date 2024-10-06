@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive User Profile Editor</title>
+    <style>
+        .profile {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 50px auto;
+        }
+
+        .profile img {
+            width: 100px;
+            border-radius: 50%;
+        }
+
+        .input-section {
+            text-align: center;
+            background-color: #f0f0f0;
+            padding: 20px;
+            border-radius: 10px;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        .input-section label {
+            display: block;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+
+        .input-section input {
+            width: 80%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        button {
+            padding: 8px 16px;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="profile">
+        <img id="profile-pic" src="" alt="Profile Picture May be Cute/Handsome">
+        <h2 id="profile-name">Monk's 😁</h2>
+        <p id="profile-bio">Bio Still 🙄</p>
+    </div>
+
+    <div class="input-section">
+        <label for="name-input">Update Name:</label>
+        <input type="text" id="name-input" placeholder="Enter New Name"><br>
+
+        <label for="bio-input">Update Bio:</label>
+        <input type="text" id="bio-input" placeholder="Enter New Bio"><br>
+
+        <label for="pic-input">Update Profile Picture URL:</label>
+        <input type="text" id="pic-input" placeholder="Enter Image URL"><br>
+
+        <button id="update-button">Update Profile</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

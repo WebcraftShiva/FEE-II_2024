@@ -1,11 +1,10 @@
 let url = "https://swapi.dev/api/people/1";
 
 let container = document.querySelector(".container");
-fetch(url)
-  .then((data) => data.json())
-  .then((data) => {
-    // console.log(data);
-  });
+fetch(url).then((data) => data.json());
+// .then((data) => {
+//   // console.log(data);
+// });
 async function getStarwardata() {
   let data = await fetch(url);
   let resultData = await data.json();
